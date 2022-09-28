@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+    color: rgb(5, 5, 60);
+}
+
+header img {
+    height: 100px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 960px;
+    width:  100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 24px;
+    background-color: rgba(185, 251, 255, 0.333);
+    border: 1px;
+    border-radius: 5px;
+    border: 2px solid rgb(7, 134, 172);
+    padding: 8px;
+    margin-bottom: 56px;
+    justify-content: space-around;
+}
+
+form select {
+    font-size: 16px;
+    color: rgb(6, 6, 80);
+    background-color: rgba(185, 251, 255, 0.333);
+    border: 1px;
+    border: 2px solid rgb(7, 134, 172);
+    padding: 8px;
+    margin-bottom: 56px;
+}
+
+form button {
+    background-color: rgb(6, 6, 80);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 56px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border: 2px solid rgb(6, 6, 80);
+    color: rgb(6, 6, 80);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(6, 6, 80 0.1);
+}
+
+table tbody {
+    color: rgb(35, 35, 199);
+    font-size: 24px;
+    font-weight: bold;
+}
